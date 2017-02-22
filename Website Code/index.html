@@ -1,0 +1,110 @@
+   
+	<header>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</header>
+	
+	<body>
+
+
+
+	<div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="index.html">
+                       LOGO
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#myModal">LOG IN/CREATE ACCOUNT</a>
+                </li>
+                <li>
+                    <a href="gun-violence-stats.html">GUN VIOLENCE STATS</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">RESOURCES <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="safe-gun-owner.html">How can I be a safe gun owner?</a></li>
+                    <li><a href="what-to-do-in-shooting.html">What do I do in a shooting?</a></li>
+                    <li><a href="gun-shots-sounds.html">What do gun shots sounds like?</a></li>
+                    <li><a href="local-gun-laws.html">What are my local gun laws?</a></li>
+                  </ul>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT US</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Login/Create Account</h4>
+              </div>
+              <div class="modal-body">
+                <p>Login or create your account</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Login button trigger modal -->
+        <button type="button" class="btn btn-link pull-right" data-toggle="modal" data-target="#myModal" style = "margin: 15px 15px 0 0;">
+          Login
+        </button>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+
+
+            <!-- Sidebar Toggle -->
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
+
+
+            <!-- Google Map -->
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+
+
+            <!-- Main Content -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <br> </br> 
+
+                        <h1 class="text-center text-uppercase">Gun Violence Incidents in 2017</h1>
+
+                        <br> </br> 
+
+                        <p>Bacon ipsum dolor sit amet tri-tip shoulder tenderloin shankle. Bresaola tail pancetta ball tip doner meatloaf corned beef.</p>              
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaqoEsIdG20Sy26Af-9b7TB1felN_B3B4&callback=myMap"></script>
