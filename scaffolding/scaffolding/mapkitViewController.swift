@@ -5,6 +5,27 @@
 //  Created by Jackie Lee on 2/14/17.
 //  Copyright © 2017 Jackie Lee. All rights reserved.
 //
+// N/A
+// September 23, 2016
+// Updating NSURL Session Calls in swift
+// Code version : N/A
+// Swift 3
+// https://grokswift.com/updating-nsurlsession-to-swift-3-0/
+
+// N/A
+// Captial.cocao
+// Annotations and accessory views: MKPinAnnotationView
+// Code version : N/A
+// Swift 3
+//https://www.hackingwithswift.com/read/19/3/annotations-and-accessory-views-mkpinannotationview
+
+// Belal Khan
+// August 12, 2016
+// viewController
+// Connecting iOS App to MySQL Database
+// Code version : N/A
+// PHP
+// https://www.simplifiedios.net/swift-php-mysql-tutorial/
 
 import UIKit
 import MapKit

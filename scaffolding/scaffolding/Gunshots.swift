@@ -5,6 +5,12 @@
 //  Created by Jackie Lee on 2/20/17.
 //  Copyright © 2017 Jackie Lee. All rights reserved.
 //
+// N/A
+// Captial.cocao
+// Annotations and accessory views: MKPinAnnotationView
+// Code version : N/A
+// Swift 3
+//https://www.hackingwithswift.com/read/19/3/annotations-and-accessory-views-mkpinannotationview
 
 import MapKit
 import UIKit

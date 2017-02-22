@@ -5,6 +5,13 @@
 //  Created by Ashish on 21/09/15.
 //  Copyright (c) 2015 Kode. All rights reserved.
 //
+// Ashish Kakkad
+// September 28th, 2015
+// menuViewController
+// Hamburger Menu
+// Code version : Swift 3 – Xcode 8 – iOS 10
+//
+// http://ashishkakkad.com/2015/09/create-your-own-slider-menu-drawer-in-swift/
 
 import UIKit
 

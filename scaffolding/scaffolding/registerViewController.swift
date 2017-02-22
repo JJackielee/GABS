@@ -5,6 +5,13 @@
 //  Created by Jackie Lee on 2/14/17.
 //  Copyright © 2017 Jackie Lee. All rights reserved.
 //
+// Sergey Kargopolov
+// February 8th, 2016
+// registerViewController
+// Store user information in MySQL database
+// Code version : N/A
+// PHP
+// http://swiftdeveloperblog.com/store-user-information-in-mysql-database/
 
 import UIKit
 

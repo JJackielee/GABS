@@ -17,7 +17,6 @@
 		437ADE2C1E5D190C00F4DF81 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADE2B1E5D190C00F4DF81 /* loginViewController.swift */; };
 		437ADE2E1E5D194A00F4DF81 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADE2D1E5D194A00F4DF81 /* registerViewController.swift */; };
 		437ADE301E5D197D00F4DF81 /* mapkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADE2F1E5D197D00F4DF81 /* mapkitViewController.swift */; };
-		437ADE321E5D199A00F4DF81 /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADE311E5D199A00F4DF81 /* Capital.swift */; };
 		437ADE341E5D19B400F4DF81 /* Gunshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADE331E5D19B400F4DF81 /* Gunshots.swift */; };
 		437ADE361E5D1A6A00F4DF81 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADE351E5D1A6A00F4DF81 /* menuViewController.swift */; };
 		437ADE381E5D251100F4DF81 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437ADE371E5D251100F4DF81 /* HomeVC.swift */; };
@@ -48,7 +47,6 @@
 		437ADE2B1E5D190C00F4DF81 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		437ADE2D1E5D194A00F4DF81 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		437ADE2F1E5D197D00F4DF81 /* mapkitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapkitViewController.swift; sourceTree = "<group>"; };
-		437ADE311E5D199A00F4DF81 /* Capital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
 		437ADE331E5D19B400F4DF81 /* Gunshots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gunshots.swift; sourceTree = "<group>"; };
 		437ADE351E5D1A6A00F4DF81 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		437ADE371E5D251100F4DF81 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				437ADE2B1E5D190C00F4DF81 /* loginViewController.swift */,
 				437ADE2D1E5D194A00F4DF81 /* registerViewController.swift */,
 				437ADE2F1E5D197D00F4DF81 /* mapkitViewController.swift */,
-				437ADE311E5D199A00F4DF81 /* Capital.swift */,
 				437ADE331E5D19B400F4DF81 /* Gunshots.swift */,
 				437ADE351E5D1A6A00F4DF81 /* menuViewController.swift */,
 				437ADE101E5D185200F4DF81 /* Assets.xcassets */,
@@ -225,7 +222,6 @@
 			files = (
 				437ADE361E5D1A6A00F4DF81 /* menuViewController.swift in Sources */,
 				437ADE381E5D251100F4DF81 /* HomeVC.swift in Sources */,
-				437ADE321E5D199A00F4DF81 /* Capital.swift in Sources */,
 				437ADE2C1E5D190C00F4DF81 /* loginViewController.swift in Sources */,
 				437ADE0C1E5D185200F4DF81 /* ViewController.swift in Sources */,
 				437ADE301E5D197D00F4DF81 /* mapkitViewController.swift in Sources */,
@@ -438,6 +434,7 @@
 				437ADE251E5D185200F4DF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		437ADE261E5D185200F4DF81 /* Build configuration list for PBXNativeTarget "scaffoldingTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +443,7 @@
 				437ADE281E5D185200F4DF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
