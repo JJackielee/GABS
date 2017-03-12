@@ -1,3 +1,7 @@
+/*Gun A Be Safe: A project that uses the arduino to gather 
+sound and location data that is sent to a data base for mobile/web use. 
+*By: Tony Nguyen and Jackie Lee
+*/
 /*The portion of code dealing with WiFi connectivity is from Shawn Hymel from his site: http://shawnhymel.com/695/quick-tip-http-get-with-the-esp8266-thing/ 
  * ------Changelog--------
  *  - Different pin input
